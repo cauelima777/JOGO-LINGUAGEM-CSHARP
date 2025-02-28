@@ -3,20 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SeuProjeto.Jogo;
 
-namespace Jogo
+
+class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-
-                
-
-
-
-
-
-        }
+        SeuProjeto.Jogo.Jogo jogo = new SeuProjeto.Jogo.Jogo(); // Caminho completo
+        jogo.Iniciar();
     }
 }
