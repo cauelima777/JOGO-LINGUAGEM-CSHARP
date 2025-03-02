@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
   "Documents": [
     {
@@ -8,6 +9,12 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\kauan\\documents\\github\\jogo-linguagem-csharp\\jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\clevi\\OneDrive\\\u00C1rea de Trabalho\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\\u00E1rea de trabalho\\jogo-linguagem-csharp\\jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> Stashed changes
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,6 +49,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 3,
               "Title": "inimigo.cs",
               "DocumentMoniker": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
@@ -49,6 +57,15 @@
               "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
               "RelativeToolTip": "Personagens\\inimigo.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\\u00C1rea de Trabalho\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\\u00C1rea de Trabalho\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T22:18:29.919Z",
               "EditorCaption": ""
@@ -59,8 +76,8 @@
               "Title": "jogador.cs",
               "DocumentMoniker": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeDocumentMoniker": "Personagens\\jogador.cs",
-              "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs*",
-              "RelativeToolTip": "Personagens\\jogador.cs*",
+              "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
+              "RelativeToolTip": "Personagens\\jogador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T22:18:16.207Z",
@@ -85,8 +102,8 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
+              "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T23:14:25.922Z",
