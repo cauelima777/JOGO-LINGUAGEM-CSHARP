@@ -1,20 +1,23 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SeuProjeto.Personagens
 {
-    class Jogador
+    class Inimigo
     {
         public string Nome { get; private set; }
         public int Vida { get; private set; }
 
-        public Jogador(string nome)
+        public Inimigo(string nome, int vida)
         {
             Nome = nome;
-            Vida = 100;
+            Vida = vida;
+        }
+
+        public void Atacar(Jogador jogador)
+        {
+            int dano = new Random().Next(10, 20);
+            jogador.SofrerDano(dano);
+            Console.WriteLine($"{Nome} atacou {jogador.Nome} e causou {dano} de dano!");
         }
 
         public void SofrerDano(int dano)
@@ -22,12 +25,6 @@ namespace SeuProjeto.Personagens
             Vida -= dano;
             if (Vida < 0) Vida = 0;
             Console.WriteLine($"{Nome} sofreu {dano} de dano! Vida restante: {Vida}");
-        }
-
-        public void Curar(int cura)
-        {
-            Vida += cura;
-            Console.WriteLine($"{Nome} se curou em {cura} pontos! Vida atual: {Vida}");
         }
     }
 }

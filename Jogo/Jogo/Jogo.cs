@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SeuProjeto.Personagens; // Importando a pasta de Personagens
-
+using SeuProjeto.Personagens;
 
 namespace SeuProjeto.Jogo
 {
@@ -41,7 +36,7 @@ namespace SeuProjeto.Jogo
                         Explorar();
                         break;
                     case "2":
-                        jogador.Curar(10);
+                        jogador.Curar(20); // Cura 20 pontos de vida
                         break;
                     case "3":
                         jogando = false;
@@ -58,8 +53,9 @@ namespace SeuProjeto.Jogo
         private void Explorar()
         {
             Console.WriteLine("\nVocê encontrou um inimigo!");
-            jogador.SofrerDano(20);
+            Inimigo inimigo = new Inimigo("Goblin", 50); // Cria um inimigo
+            Batalha batalha = new Batalha(jogador, inimigo); // Inicia a batalha
+            batalha.Iniciar();
         }
     }
 }
-

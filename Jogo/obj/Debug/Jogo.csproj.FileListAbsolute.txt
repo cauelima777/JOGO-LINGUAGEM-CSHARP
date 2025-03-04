@@ -5,3 +5,10 @@ C:\Users\Kauan\Documents\GitHub\JOGO-LINGUAGEM-CSHARP\Jogo\bin\Debug\Jogo.exe
 C:\Users\Kauan\Documents\GitHub\JOGO-LINGUAGEM-CSHARP\Jogo\bin\Debug\Jogo.pdb
 C:\Users\Kauan\Documents\GitHub\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.exe
 C:\Users\Kauan\Documents\GitHub\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.pdb
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\bin\Debug\Jogo.exe.config
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\bin\Debug\Jogo.exe
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\bin\Debug\Jogo.pdb
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.csproj.AssemblyReference.cache
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.csproj.CoreCompileInputs.cache
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.exe
+C:\Users\clevi\OneDrive\Área de Trabalho\JOGO-LINGUAGEM-CSHARP\Jogo\obj\Debug\Jogo.pdb

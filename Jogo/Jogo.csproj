@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Jogo\Jogo.cs" />
+    <Compile Include="Personagens\Batalha.cs" />
     <Compile Include="Personagens\inimigo.cs" />
     <Compile Include="Personagens\jogador.cs" />
     <Compile Include="Program.cs" />
@@ -52,8 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Habilidades\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
