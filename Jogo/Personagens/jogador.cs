@@ -6,11 +6,13 @@ namespace SeuProjeto.Personagens
     {
         public string Nome { get; private set; }
         public int Vida { get; private set; }
+        private int usosHabilidadeEspecial;
 
         public Jogador(string nome)
         {
             Nome = nome;
             Vida = 100;
+            usosHabilidadeEspecial = 2;
         }
 
         public void Atacar(Inimigo inimigo)
@@ -22,9 +24,26 @@ namespace SeuProjeto.Personagens
 
         public void UsarHabilidadeEspecial(Inimigo inimigo)
         {
-            int dano = new Random().Next(20, 30);
-            inimigo.SofrerDano(dano);
-            Console.WriteLine($"{Nome} usou uma habilidade especial em {inimigo.Nome} e causou {dano} de dano!");
+            if (usosHabilidadeEspecial > 0)
+            {
+                int dano = new Random().Next(25, 35);
+                inimigo.SofrerDano(dano);
+                usosHabilidadeEspecial--;
+                Console.WriteLine($"{Nome} usou Ferramenta Giratória em {inimigo.Nome} causando {dano} de dano! ({usosHabilidadeEspecial} uso(s) restante(s))");2
+                    2
+
+            }
+            else
+            {
+                Console.WriteLine("⚠️ Habilidade especial esgotada nesta batalha.");
+            }
+        }
+
+        public void Curar(int cura)
+        {
+            Vida += cura;
+            if (Vida > 100) Vida = 100;
+            Console.WriteLine($"{Nome} repôs óleo e curou {cura} pontos! Vida atual: {Vida}");
         }
 
         public void SofrerDano(int dano)
@@ -34,11 +53,14 @@ namespace SeuProjeto.Personagens
             Console.WriteLine($"{Nome} sofreu {dano} de dano! Vida restante: {Vida}");
         }
 
-        public void Curar(int cura)
+        public void ReiniciarHabilidadeEspecial()
         {
-            Vida += cura;
-            if (Vida > 100) Vida = 100; // Limita a vida máxima a 100
-            Console.WriteLine($"{Nome} se curou em {cura} pontos! Vida atual: {Vida}");
+            usosHabilidadeEspecial = 2;
+        }
+
+        public void GanharExperiencia(int xp)
+        {
+            Console.WriteLine($"{Nome} ganhou {xp} de experiência!");
         }
     }
 }

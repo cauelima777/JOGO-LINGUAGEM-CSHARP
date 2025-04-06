@@ -1,5 +1,6 @@
 ﻿using System;
 using SeuProjeto.Personagens;
+using SeuProjeto.Mundo;
 
 namespace SeuProjeto.Jogo
 {
@@ -9,53 +10,46 @@ namespace SeuProjeto.Jogo
 
         public void Iniciar()
         {
-            Console.Write("Digite seu nome: ");
+            Historia.Introducao();
+
+            Console.Write("Digite o nome do seu robô: ");
             string nome = Console.ReadLine();
             jogador = new Jogador(nome);
 
-            Console.WriteLine($"\nBem-vindo, {jogador.Nome}!\n");
-            LoopPrincipal();
-        }
+            Console.WriteLine($"\n🔧 Bem-vindo, {jogador.Nome}!\n");
 
-        private void LoopPrincipal()
-        {
-            bool jogando = true;
-
-            while (jogando)
+            string[] inimigos = new string[]
             {
-                Console.WriteLine("\nEscolha uma ação:");
-                Console.WriteLine("1 - Explorar");
-                Console.WriteLine("2 - Descansar");
-                Console.WriteLine("3 - Sair");
+                "Soldado de Bronze",
+                "Canhão Ambulante",
+                "Sentinela de Vapor",
+                "Engrenador Sombrio",
+                "Golem de Ferrugem",
+                "Drone de Inspeção",
+                "Besta a Vapor",
+                "Servo de Maldrik",
+                "Autômato Veloz",
+                "Guardião das Fornalhas",
+                "👑 Rei Maldrik"
+            };
 
-                string escolha = Console.ReadLine();
+            for (int i = 0; i < inimigos.Length; i++)
+            {
+                Console.WriteLine($"\n🚨 Missão {i + 1}: Derrote {inimigos[i]}!\n");
 
-                switch (escolha)
+                Inimigo inimigo = new Inimigo(inimigos[i], i < inimigos.Length - 1 ? 50 + i * 10 : 150);
+                Batalha batalha = new Batalha(jogador, inimigo);
+                batalha.Iniciar();
+
+                if (jogador.Vida <= 0)
                 {
-                    case "1":
-                        Explorar();
-                        break;
-                    case "2":
-                        jogador.Curar(20); // Cura 20 pontos de vida
-                        break;
-                    case "3":
-                        jogando = false;
-                        break;
-                    default:
-                        Console.WriteLine("Escolha inválida.");
-                        break;
+                    Console.WriteLine("\n⚰️ Você foi destruído no campo de batalha. Fim de linha.");
+                    return;
                 }
             }
 
-            Console.WriteLine("\nObrigado por jogar!");
-        }
-
-        private void Explorar()
-        {
-            Console.WriteLine("\nVocê encontrou um inimigo!");
-            Inimigo inimigo = new Inimigo("Goblin", 50); // Cria um inimigo
-            Batalha batalha = new Batalha(jogador, inimigo); // Inicia a batalha
-            batalha.Iniciar();
+            Console.WriteLine("\n🎉 Parabéns! Você derrotou o Rei Maldrik e libertou Valvulândia!");
+            Console.WriteLine("A cidade pode finalmente respirar alívio. Um novo futuro começa.");
         }
     }
 }

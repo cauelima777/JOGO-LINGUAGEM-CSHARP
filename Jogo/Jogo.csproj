@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Mundo\história.cs" />
     <Compile Include="Jogo\Jogo.cs" />
+    <Compile Include="Mundo\Oficina.cs" />
     <Compile Include="Personagens\Batalha.cs" />
     <Compile Include="Personagens\inimigo.cs" />
     <Compile Include="Personagens\jogador.cs" />

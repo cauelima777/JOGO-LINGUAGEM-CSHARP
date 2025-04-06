@@ -16,15 +16,16 @@ namespace SeuProjeto.Jogo
 
         public void Iniciar()
         {
-            Console.WriteLine($"\nUma batalha começou entre {jogador.Nome} e {inimigo.Nome}!\n");
+            Console.WriteLine($"\n⚔️ Batalha entre {jogador.Nome} e {inimigo.Nome}!\n");
+
+            jogador.ReiniciarHabilidadeEspecial();
 
             while (jogador.Vida > 0 && inimigo.Vida > 0)
             {
-                // Turno do jogador
                 Console.WriteLine("\nSeu turno:");
                 Console.WriteLine("1 - Atacar");
-                Console.WriteLine("2 - Usar habilidade especial");
-                Console.WriteLine("3 - Curar");
+                Console.WriteLine("2 - Usar Ferramenta Giratória (Habilidade Especial)");
+                Console.WriteLine("3 - Repor Óleo (Curar)");
                 Console.Write("Escolha uma ação: ");
                 string escolha = Console.ReadLine();
 
@@ -37,38 +38,35 @@ namespace SeuProjeto.Jogo
                         jogador.UsarHabilidadeEspecial(inimigo);
                         break;
                     case "3":
-                        jogador.Curar(15); // Cura 15 pontos de vida
+                        jogador.Curar(15);
                         break;
                     default:
                         Console.WriteLine("Ação inválida. Você perdeu o turno!");
                         break;
                 }
 
-                // Verifica se o inimigo foi derrotado
                 if (inimigo.Vida <= 0)
                 {
-                    Console.WriteLine($"\n{inimigo.Nome} foi derrotado!");
+                    Console.WriteLine($"\n✅ {inimigo.Nome} foi derrotado!");
+                    jogador.GanharExperiencia(50);
                     break;
                 }
 
-                // Turno do inimigo
                 Console.WriteLine("\nTurno do inimigo:");
                 inimigo.Atacar(jogador);
 
-                // Verifica se o jogador foi derrotado
                 if (jogador.Vida <= 0)
                 {
-                    Console.WriteLine($"\n{jogador.Nome} foi derrotado!");
+                    Console.WriteLine($"\n❌ {jogador.Nome} foi destruído!");
                     break;
                 }
 
-                // Exibe status após cada turno
-                Console.WriteLine("\nStatus após o turno:");
+                Console.WriteLine("\n📊 Status:");
                 Console.WriteLine($"{jogador.Nome}: {jogador.Vida} HP");
                 Console.WriteLine($"{inimigo.Nome}: {inimigo.Vida} HP");
             }
 
-            Console.WriteLine("\nA batalha terminou!");
+            Console.WriteLine("\n⚙️ Batalha encerrada.");
         }
     }
 }

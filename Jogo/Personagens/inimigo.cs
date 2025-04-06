@@ -15,9 +15,9 @@ namespace SeuProjeto.Personagens
 
         public void Atacar(Jogador jogador)
         {
-            int dano = new Random().Next(10, 20);
+            int dano = new Random().Next(10, 18);
             jogador.SofrerDano(dano);
-            Console.WriteLine($"{Nome} atacou {jogador.Nome} e causou {dano} de dano!");
+            Console.WriteLine($"{Nome} atacou com uma serra enferrujada e causou {dano} de dano!");
         }
 
         public void SofrerDano(int dano)
