@@ -11,6 +11,8 @@ class Program
     static void Main()
     {
         SeuProjeto.Jogo.Jogo jogo = new SeuProjeto.Jogo.Jogo(); // Caminho completo
-        //jogo.Iniciar();
+        jogo.Iniciar();
+
+        //TESTE GIT
     }
 }
