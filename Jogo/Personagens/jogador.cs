@@ -17,7 +17,7 @@ namespace SeuProjeto.Personagens
 
         public void Atacar(Inimigo inimigo)
         {
-            int dano = new Random().Next(10, 20);
+            int dano = new Random().Next(0, 20);
             inimigo.SofrerDano(dano);
             Console.WriteLine($"{Nome} atacou {inimigo.Nome} e causou {dano} de dano!");
         }
@@ -26,11 +26,11 @@ namespace SeuProjeto.Personagens
         {
             if (usosHabilidadeEspecial > 0)
             {
-                int dano = new Random().Next(25, 35);
+                int dano = new Random().Next(15, 25);
                 inimigo.SofrerDano(dano);
                 usosHabilidadeEspecial--;
-                Console.WriteLine($"{Nome} usou Ferramenta Giratória em {inimigo.Nome} causando {dano} de dano! ({usosHabilidadeEspecial} uso(s) restante(s))");2
-                    2
+                Console.WriteLine($"{Nome} usou Ferramenta Giratória em {inimigo.Nome} causando {dano} de dano! ({usosHabilidadeEspecial} uso(s) restante(s))");
+                    
 
             }
             else
@@ -40,7 +40,7 @@ namespace SeuProjeto.Personagens
         }
 
         public void Curar(int cura)
-        {
+        {   
             Vida += cura;
             if (Vida > 100) Vida = 100;
             Console.WriteLine($"{Nome} repôs óleo e curou {cura} pontos! Vida atual: {Vida}");
