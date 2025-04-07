@@ -13,6 +13,6 @@ class Program
         SeuProjeto.Jogo.Jogo jogo = new SeuProjeto.Jogo.Jogo(); // Caminho completo
         jogo.Iniciar();
 
-        //TESTE GIT
+        // Testes 0-0
     }
 }
