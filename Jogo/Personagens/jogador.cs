@@ -62,5 +62,25 @@ namespace SeuProjeto.Personagens
         {
             Console.WriteLine($"{Nome} ganhou {xp} de experiência!");
         }
+
+        public class PecasComplementares
+        {
+            // Atributos
+            public string Nome { get; set; }
+            public string Tipo { get; set; }
+            public int NivelRequerido { get; set; }
+            public bool EstaEquipada { get; private set; }
+
+            // Métodos
+            public void Equipar()
+            {
+                EstaEquipada = true;
+            }
+
+            public void ExibirInformacoes()
+            {
+                Console.WriteLine($"Nome: {Nome}, Tipo: {Tipo}, Nível Requerido: {NivelRequerido}, Equipada: {EstaEquipada}");
+            }
+        }
     }
 }

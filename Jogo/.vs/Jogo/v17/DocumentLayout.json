@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\kauan\\documents\\github\\jogo-linguagem-csharp\\jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\kauan\\documents\\github\\jogo-linguagem-csharp\\jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\inimigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,15 +54,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "jogador.cs",
               "DocumentMoniker": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeDocumentMoniker": "Personagens\\jogador.cs",
               "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeToolTip": "Personagens\\jogador.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAA5wEIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:35:02.746Z"
+              "WhenOpened": "2025-03-02T20:35:02.746Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -90,15 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Kauan\\Documents\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
-
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-02T20:35:03.095Z",
               "EditorCaption": ""
