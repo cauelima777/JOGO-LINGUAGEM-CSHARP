@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Jogo.Personagens;
+using System;
+using System.Collections.Generic;
 
 namespace SeuProjeto.Personagens
 {
@@ -7,6 +9,11 @@ namespace SeuProjeto.Personagens
         public string Nome { get; private set; }
         public int Vida { get; private set; }
         private int usosHabilidadeEspecial;
+    
+
+        public List<PecasSobressalentes> pecasSobressalentes { get; set; }     
+
+
 
         public Jogador(string nome)
         {
@@ -63,24 +70,10 @@ namespace SeuProjeto.Personagens
             Console.WriteLine($"{Nome} ganhou {xp} de experiência!");
         }
 
-        public class PecasComplementares
-        {
-            // Atributos
-            public string Nome { get; set; }
-            public string Tipo { get; set; }
-            public int NivelRequerido { get; set; }
-            public bool EstaEquipada { get; private set; }
 
-            // Métodos
-            public void Equipar()
-            {
-                EstaEquipada = true;
-            }
-
-            public void ExibirInformacoes()
-            {
-                Console.WriteLine($"Nome: {Nome}, Tipo: {Tipo}, Nível Requerido: {NivelRequerido}, Equipada: {EstaEquipada}");
-            }
         }
+
+
+
     }
-}
+

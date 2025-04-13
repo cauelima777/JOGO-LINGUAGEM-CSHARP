@@ -16,6 +16,8 @@ namespace SeuProjeto.Jogo
 
         public void Iniciar()
         {
+
+      
             Console.WriteLine($"\n⚔️ Batalha entre {jogador.Nome} e {inimigo.Nome}!\n");
 
             jogador.ReiniciarHabilidadeEspecial();
