@@ -49,6 +49,7 @@
     <Compile Include="Personagens\Batalha.cs" />
     <Compile Include="Personagens\inimigo.cs" />
     <Compile Include="Personagens\jogador.cs" />
+    <Compile Include="Personagens\Loja.cs" />
     <Compile Include="Personagens\PecasSobressalentes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

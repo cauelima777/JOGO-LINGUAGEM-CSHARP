@@ -1,25 +1,25 @@
-﻿using Jogo.Personagens;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace SeuProjeto.Personagens
 {
-    class Jogador
+    public class Jogador
     {
         public string Nome { get; private set; }
-        public int Vida { get; private set; }
+        public int Vida { get; set; }
+        public int VidaMaxima { get; set; }
+        public int Moedas { get; set; }
         private int usosHabilidadeEspecial;
-    
-
-        public List<PecasSobressalentes> pecasSobressalentes { get; set; }     
-
-
+        public List<PecasSobressalentes> PecasSobressalentes { get; set; }
 
         public Jogador(string nome)
         {
             Nome = nome;
             Vida = 100;
+            VidaMaxima = 100;
+            Moedas = 50;
             usosHabilidadeEspecial = 2;
+            PecasSobressalentes = new List<PecasSobressalentes>();
         }
 
         public void Atacar(Inimigo inimigo)
@@ -37,8 +37,6 @@ namespace SeuProjeto.Personagens
                 inimigo.SofrerDano(dano);
                 usosHabilidadeEspecial--;
                 Console.WriteLine($"{Nome} usou Ferramenta Giratória em {inimigo.Nome} causando {dano} de dano! ({usosHabilidadeEspecial} uso(s) restante(s))");
-                    
-
             }
             else
             {
@@ -47,9 +45,9 @@ namespace SeuProjeto.Personagens
         }
 
         public void Curar(int cura)
-        {   
+        {
             Vida += cura;
-            if (Vida > 100) Vida = 100;
+            if (Vida > VidaMaxima) Vida = VidaMaxima;
             Console.WriteLine($"{Nome} repôs óleo e curou {cura} pontos! Vida atual: {Vida}");
         }
 
@@ -70,10 +68,49 @@ namespace SeuProjeto.Personagens
             Console.WriteLine($"{Nome} ganhou {xp} de experiência!");
         }
 
-
+        public void GanharMoedas(int quantidade)
+        {
+            Moedas += quantidade;
+            Console.WriteLine($"Você ganhou {quantidade} moedas! Total: {Moedas}");
         }
 
+        public void ComprarPeca(PecasSobressalentes peca)
+        {
+            if (Moedas >= peca.Preco)
+            {
+                Moedas -= peca.Preco;
+                PecasSobressalentes.Add(peca);
+                Console.WriteLine($"Você comprou {peca.Nome} por {peca.Preco} moedas!");
+            }
+            else
+            {
+                Console.WriteLine("Moedas insuficientes para comprar esta peça!");
+            }
+        }
 
+        public void ListarPecas()
+        {
+            Console.WriteLine("\n📦 Peças Sobressalentes:");
+            if (PecasSobressalentes.Count == 0)
+            {
+                Console.WriteLine("Você não possui peças sobressalentes.");
+                return;
+            }
 
+            for (int i = 0; i < PecasSobressalentes.Count; i++)
+            {
+                Console.WriteLine($"{i + 1} - {PecasSobressalentes[i].Nome}");
+            }
+        }
+
+        public void MostrarStatus()
+        {
+            
+            Console.WriteLine("\n📊 Status do Jogador:");
+            Console.WriteLine($"Nome: {Nome}");
+            Console.WriteLine($"Vida: {Vida}/{VidaMaxima}");
+            Console.WriteLine($"Moedas: {Moedas}");
+            Console.WriteLine($"Peças: {PecasSobressalentes.Count} ({(PecasSobressalentes.FindAll(p => p.EstaEquipada).Count)} equipadas)");
+        }
     }
-
+}

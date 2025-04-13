@@ -2,10 +2,10 @@
 
 namespace SeuProjeto.Personagens
 {
-    class Inimigo
+    public class Inimigo
     {
         public string Nome { get; private set; }
-        public int Vida { get; private set; }
+        public int Vida { get; set; }
 
         public Inimigo(string nome, int vida)
         {

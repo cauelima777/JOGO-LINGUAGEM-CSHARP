@@ -3,7 +3,7 @@ using SeuProjeto.Personagens;
 
 namespace SeuProjeto.Jogo
 {
-    class Batalha
+    public class Batalha
     {
         private Jogador jogador;
         private Inimigo inimigo;
@@ -16,8 +16,6 @@ namespace SeuProjeto.Jogo
 
         public void Iniciar()
         {
-
-      
             Console.WriteLine($"\n⚔️ Batalha entre {jogador.Nome} e {inimigo.Nome}!\n");
 
             jogador.ReiniciarHabilidadeEspecial();
@@ -35,9 +33,11 @@ namespace SeuProjeto.Jogo
                 {
                     case "1":
                         jogador.Atacar(inimigo);
+                        Console.Clear();
                         break;
                     case "2":
                         jogador.UsarHabilidadeEspecial(inimigo);
+                        Console.Clear();
                         break;
                     case "3":
                         jogador.Curar(15);
@@ -64,7 +64,7 @@ namespace SeuProjeto.Jogo
                 }
 
                 Console.WriteLine("\n📊 Status:");
-                Console.WriteLine($"{jogador.Nome}: {jogador.Vida} HP");
+                Console.WriteLine($"{jogador.Nome}: {jogador.Vida}/{jogador.VidaMaxima} HP");
                 Console.WriteLine($"{inimigo.Nome}: {inimigo.Vida} HP");
             }
 
