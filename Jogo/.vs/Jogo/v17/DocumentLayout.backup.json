@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
+  "WorkspaceRootPath": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\projeto-est-gio-ii\\jogo-linguagem-csharp\\jogo\\jogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:jogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\projeto-est-gio-ii\\jogo-linguagem-csharp\\jogo\\personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\projeto-est-gio-ii\\jogo-linguagem-csharp\\jogo\\personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\projeto-est-gio-ii\\jogo-linguagem-csharp\\jogo\\personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\jogo-linguagem-csharp\\jogo\\personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|c:\\users\\clevi\\onedrive\\documentos\\github\\projeto-est-gio-ii\\jogo-linguagem-csharp\\jogo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\pecassobressalentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\pecassobressalentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\jogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:jogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,68 +50,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Jogo.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
-              "RelativeDocumentMoniker": "Jogo\\Jogo.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
-              "RelativeToolTip": "Jogo\\Jogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PecasSobressalentes.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
+              "RelativeDocumentMoniker": "Personagens\\PecasSobressalentes.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
+              "RelativeToolTip": "Personagens\\PecasSobressalentes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:26:08.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T20:04:50.506Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Batalha.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
-              "RelativeDocumentMoniker": "Personagens\\Batalha.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
-              "RelativeToolTip": "Personagens\\Batalha.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Jogo.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
+              "RelativeDocumentMoniker": "Jogo\\Jogo.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
+              "RelativeToolTip": "Jogo\\Jogo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T19:25:33.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T19:26:08.732Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Batalha.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
+              "RelativeDocumentMoniker": "Personagens\\Batalha.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
+              "RelativeToolTip": "Personagens\\Batalha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T19:25:33.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Loja.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
               "RelativeDocumentMoniker": "Personagens\\Loja.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
               "RelativeToolTip": "Personagens\\Loja.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAowGoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T18:38:33.462Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\App.config",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\App.config",
               "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\App.config",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\App.config",
               "RelativeToolTip": "App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-04-13T17:40:16.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-13T17:40:16.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "jogador.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeDocumentMoniker": "Personagens\\jogador.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\PROJETO-EST-GIO-II\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeToolTip": "Personagens\\jogador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T20:35:02.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-02T20:35:02.746Z"
             }
           ]
         }
