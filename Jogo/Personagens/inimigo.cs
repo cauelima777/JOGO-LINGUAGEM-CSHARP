@@ -13,6 +13,8 @@ namespace SeuProjeto.Personagens
             Vida = vida;
         }
 
+
+        // CRIAR UMA FORMA DE LINKAR A PEÇA DA LOJA NESSA PARTE
         public void Atacar(Jogador jogador)
         {
             int dano = new Random().Next(10, 18);

@@ -22,6 +22,12 @@ namespace SeuProjeto.Jogo
 
             while (jogador.Vida > 0 && inimigo.Vida > 0)
             {
+
+                Console.WriteLine("\n📊 Status:");
+                Console.WriteLine($"{jogador.Nome}: {jogador.Vida}/{jogador.VidaMaxima} HP");
+                Console.WriteLine($"{inimigo.Nome}: {inimigo.Vida} HP");
+
+
                 Console.WriteLine("\nSeu turno:");
                 Console.WriteLine("1 - Atacar");
                 Console.WriteLine("2 - Usar Ferramenta Giratória (Habilidade Especial)");
