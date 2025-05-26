@@ -12,6 +12,8 @@ namespace SeuProjeto.Mundo
         {
             estoque = new List<PecasSobressalentes>
             {
+
+                // PEÇA - TIPO DEFESA - NÍVEL - CUSTO - QUANTO DE HP - QUANTO DE DANO
                 new PecasSobressalentes("Juntas Reforçadas", "Defesa", 1, 30, 15, 0),
                 new PecasSobressalentes("Serra Afiada", "Ataque", 1, 40, 0, 5),
                 new PecasSobressalentes("Tanque de Óleo XL", "Vida", 2, 50, 25, 0),
@@ -28,7 +30,7 @@ namespace SeuProjeto.Mundo
 
             while (true)
             {
-                Console.WriteLine($"\n💰 Moedas: {jogador.Moedas}");
+                Console.WriteLine($"\n Moedas: {jogador.Moedas}");
                 Console.WriteLine("\n1 - Comprar peças");
                 Console.WriteLine("2 - Ver peças compradas");
                 Console.WriteLine("3 - Equipar peças");
@@ -58,9 +60,11 @@ namespace SeuProjeto.Mundo
             }
         }
 
+
+// +++++++++++++++++++++++++++++++++++Verificar++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         private void MostrarEstoque(Jogador jogador)
         {
-            Console.WriteLine("\n📦 Estoque da Loja:");
+            Console.WriteLine("\n Estoque da Loja:");
             for (int i = 0; i < estoque.Count; i++)
             {
                 Console.WriteLine($"{i + 1} - {estoque[i].Nome} ({estoque[i].Preco} moedas)");
@@ -82,7 +86,7 @@ namespace SeuProjeto.Mundo
                 return;
             }
 
-            Console.WriteLine("\n⚙️ Peças disponíveis para equipar:");
+            Console.WriteLine("\n Peças disponíveis para equipar:");
             for (int i = 0; i < jogador.PecasSobressalentes.Count; i++)
             {
                 var peca = jogador.PecasSobressalentes[i];

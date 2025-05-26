@@ -27,6 +27,7 @@ namespace SeuProjeto.Jogo
 
             Console.WriteLine($"\n🔧 Bem-vindo, {jogador.Nome}!\n");
 
+            //LISTA DE INIMIGOS COMBATÍVEIS
             string[] inimigos = new string[]
             {
                 "Soldado de Bronze",
@@ -48,7 +49,7 @@ namespace SeuProjeto.Jogo
 
                 if (jogador.Vida <= 0) break;
 
-                Console.WriteLine($"\n🚨 Missão {i + 1}: Derrote {inimigos[i]}!\n");
+                Console.WriteLine($"\nMissão {i + 1}: Derrote {inimigos[i]}!\n");
 
                 Inimigo inimigo = new Inimigo(inimigos[i], i < inimigos.Length - 1 ? 50 + i * 10 : 150);
                 Batalha batalha = new Batalha(jogador, inimigo);
@@ -113,7 +114,7 @@ namespace SeuProjeto.Jogo
                 return;
             }
 
-            Console.WriteLine("\n⚙️ Suas peças sobressalentes:");
+            Console.WriteLine("\nSuas peças sobressalentes:");
             for (int i = 0; i < jogador.PecasSobressalentes.Count; i++)
             {
                 jogador.PecasSobressalentes[i].ExibirInformacoes();
