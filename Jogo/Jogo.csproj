@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Mundo\história.cs" />
     <Compile Include="Jogo\Jogo.cs" />
+    <Compile Include="Mundo\LoreDosInimigos.cs" />
     <Compile Include="Mundo\Oficina.cs" />
     <Compile Include="Personagens\Batalha.cs" />
     <Compile Include="Personagens\inimigo.cs" />

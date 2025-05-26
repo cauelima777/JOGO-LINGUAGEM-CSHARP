@@ -10,6 +10,8 @@ class Program
 {
     static void Main()
     {
+
+        Console.OutputEncoding = Encoding.UTF8;
         SeuProjeto.Jogo.Jogo jogo = new SeuProjeto.Jogo.Jogo(); // Caminho completo
         jogo.Iniciar();
 
