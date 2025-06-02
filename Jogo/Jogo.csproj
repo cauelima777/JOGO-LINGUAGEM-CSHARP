@@ -57,7 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Assets\Sheet Monkey Form %281%29.xlsx" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Assets\260_full_8bit-action_0162_preview.mp3" />
+    <Content Include="Assets\batalha.wav" />
+    <Content Include="Assets\loja.mp3" />
+    <Content Include="Assets\loja.wav" />
+    <Content Include="Assets\musica.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
