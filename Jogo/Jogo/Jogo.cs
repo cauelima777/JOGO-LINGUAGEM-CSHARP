@@ -17,11 +17,9 @@ namespace SeuProjeto.Jogo
         public void Iniciar()
         {
             Historia.Introducao();
+            MostrarTelaBoasVindas();
 
-            Console.Clear();
-            Console.WriteLine("Bem-vindo ao jogo!\n");
-
-            Console.Write("Digite o nome do seu robô: ");
+            Console.Write("🛠️ Digite o nome do seu robô: ");
             string nome = Console.ReadLine();
             jogador = new Jogador(nome);
 
@@ -45,16 +43,17 @@ namespace SeuProjeto.Jogo
             for (int i = 0; i < inimigos.Length; i++)
             {
                 MenuEntreBatalhas();
-
                 if (jogador.Vida <= 0) break;
 
                 string nomeInimigo = inimigos[i];
                 Console.Clear();
-                Console.WriteLine($"\n🔔 Missão {i + 1}: Derrote {nomeInimigo}!\n");
+                EscreverBarra();
+                EscreverCentralizado($"🚨 MISSÃO {i + 1} – DERROTE: {nomeInimigo} 🚨");
+                EscreverBarra();
+                Console.WriteLine();
 
                 MostrarHistoriaComInteracao(nomeInimigo, jogador.Nome);
-
-                Console.WriteLine("\nPressione qualquer tecla para iniciar a batalha...");
+                EscreverCentralizado("\n🔫 Pressione qualquer tecla para iniciar a batalha...");
                 Console.ReadKey();
 
                 Inimigo inimigo = new Inimigo(nomeInimigo, i < inimigos.Length - 1 ? 50 + i * 10 : 150);
@@ -67,61 +66,89 @@ namespace SeuProjeto.Jogo
                 }
                 else
                 {
-                    Console.WriteLine("\n⚰️ Você foi destruído no campo de batalha. Fim de linha.");
+                    TelaGameOver();
                     return;
                 }
             }
 
             if (jogador.Vida > 0)
             {
-                Console.WriteLine("\n🎉 Parabéns! Você derrotou o Rei Maldrik e libertou Valvulândia!");
-                Console.WriteLine("A cidade pode finalmente respirar alívio. Um novo futuro começa.");
+                TelaVitoria();
             }
+        }
+
+        private void MostrarTelaBoasVindas()
+        {
+            Console.Clear();
+            EscreverBarra();
+            EscreverCentralizado("🤖 BEM-VINDO A...");
+            EscreverCentralizado(@"██╗   ██╗ █████╗ ██╗     ██╗   ██╗██╗     █████╗ ███╗   ██╗██████╗ ██╗ █████╗ 
+██║   ██║██╔══██╗██║     ██║   ██║██║    ██╔══██╗████╗  ██║██╔══██╗██║██╔══██╗
+██║   ██║███████║██║     ██║   ██║██║    ███████║██╔██╗ ██║██║  ██║██║███████║
+╚██╗ ██╔╝██╔══██║██║     ██║   ██║██║    ██╔══██║██║╚██╗██║██║  ██║██║██╔══██║
+ ╚████╔╝ ██║  ██║███████╗╚██████╔╝███████╗██║  ██║██║ ╚████║██████╔╝██║██║  ██║
+  ╚═══╝  ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝╚═╝  ╚═╝");
+            EscreverBarra();
+            Console.WriteLine();
+        }
+
+        private void TelaVitoria()
+        {
+            Console.Clear();
+            EscreverBarra();
+            EscreverCentralizado("🎉 MISSÃO COMPLETA!");
+            EscreverCentralizado("Você derrotou o 👑 Rei Maldrik e libertou Valvulândia!");
+            EscreverCentralizado("⚙️ A cidade pode finalmente respirar alívio.");
+            EscreverCentralizado("✨ Um novo futuro começa graças a você!");
+            EscreverBarra();
+        }
+
+        private void TelaGameOver()
+        {
+            Console.Clear();
+            EscreverBarra();
+            EscreverCentralizado("⚰️ GAME OVER");
+            EscreverCentralizado("Você foi destruído no campo de batalha.");
+            EscreverCentralizado("Talvez em uma próxima versão... 🛠️");
+            EscreverBarra();
         }
 
         private void MostrarHistoriaComInteracao(string inimigo, string nomeJogador)
         {
-            Console.WriteLine("📖 Cena narrativa:\n");
+            Console.Clear();
+            EscreverBarra();
+            EscreverCentralizado("📖 CENA NARRATIVA");
+            EscreverBarra();
+            Console.WriteLine();
 
             switch (inimigo)
             {
                 case "Soldado de Bronze":
-                    Console.WriteLine("Você adentra os limites enferrujados da Zona 1. As engrenagens rangem e o vapor sobe das rachaduras do solo.");
-                    Console.WriteLine("Um vulto metálico caminha em sua direção: é o Soldado de Bronze, o primeiro obstáculo entre você e Valvulândia.");
-                    Console.WriteLine("\n👮 Soldado de Bronze: \"Identificação, intruso. Você não tem permissão para prosseguir.\"");
-                    Console.WriteLine($"🤖 {nomeJogador}: \"Minha permissão é minha vontade de libertar Valvulândia. Prepare-se.\"");
-                    Console.WriteLine("👮 Soldado de Bronze: \"Iniciando protocolo de eliminação.\"");
+                    EscreverCentralizado("⚙️ Zona 1: Você pisa no metal corroído e sente o vapor subindo.");
+                    EscreverCentralizado("👮 Soldado de Bronze: \"Identifique-se, intruso.\"");
+                    EscreverCentralizado($"🤖 {nomeJogador}: \"Minha identidade é liberdade.\"");
                     break;
 
                 case "Canhão Ambulante":
-                    Console.WriteLine("As muralhas do Setor Beta tremem com o som de passos pesados.");
-                    Console.WriteLine("O Canhão Ambulante surge, com suas armas carregadas com vapor fervente.");
-                    Console.WriteLine("\n💣 Canhão Ambulante: \"Você será vaporizado antes de dar mais um passo.\"");
-                    Console.WriteLine($"🤖 {nomeJogador}: \"Veremos quem vai parar quem.\"");
-                    Console.WriteLine("💣 Canhão Ambulante: \"Mira travada. Eliminando.\"");
+                    EscreverCentralizado("💣 Passos pesados ecoam. Surge o Canhão Ambulante.");
+                    EscreverCentralizado("💣: \"Você será vaporizado.\"");
+                    EscreverCentralizado($"🤖 {nomeJogador}: \"Não antes de você.\"");
                     break;
 
                 case "Sentinela de Vapor":
-                    Console.WriteLine("Nuvens de vapor bloqueiam sua visão enquanto uma silhueta mecânica emerge.");
-                    Console.WriteLine("A Sentinela de Vapor ergue sua lança incandescente.");
-                    Console.WriteLine("\n🛡️ Sentinela de Vapor: \"Nenhum robô rebelde passa pela torre central.\"");
-                    Console.WriteLine($"🤖 {nomeJogador}: \"Nem todo robô se curva ao sistema.\"");
-                    Console.WriteLine("🛡️ Sentinela de Vapor: \"Prepare-se para ser desmantelado.\"");
+                    EscreverCentralizado("🌫️ A névoa densa revela uma lança incandescente.");
+                    EscreverCentralizado("🛡️ Sentinela: \"Volte para seu posto, rebelde.\"");
+                    EscreverCentralizado($"🤖 {nomeJogador}: \"Não sou mais peça do seu sistema!\"");
                     break;
 
-                // Adicione outras histórias aqui conforme desejar...
-
                 case "👑 Rei Maldrik":
-                    Console.WriteLine("Você atravessa o portão principal do Palácio das Fornalhas.");
-                    Console.WriteLine("O ar está denso. Chamas e vapor dançam em volta do trono metálico.");
-                    Console.WriteLine("👑 O próprio Rei Maldrik, criador da tirania, se ergue com seus braços flamejantes.");
-                    Console.WriteLine("\n👑 Rei Maldrik: \"Então você chegou até aqui... um robô sonhador que acredita em liberdade.\"");
-                    Console.WriteLine($"🤖 {nomeJogador}: \"E você é só mais uma engrenagem prestes a quebrar.\"");
-                    Console.WriteLine("👑 Rei Maldrik: \"Venha, mostre-me se é digno de desafiar um rei!\"");
+                    EscreverCentralizado("🔥 Diante do Trono das Fornalhas, ele aguarda.");
+                    EscreverCentralizado("👑 Maldrik: \"Liberdade é ilusão.\"");
+                    EscreverCentralizado($"🤖 {nomeJogador}: \"Então eu sou a realidade.\"");
                     break;
 
                 default:
-                    Console.WriteLine("⚠️ História ainda não disponível para este inimigo.");
+                    EscreverCentralizado("⚠️ História não disponível para este inimigo.");
                     break;
             }
         }
@@ -130,12 +157,18 @@ namespace SeuProjeto.Jogo
         {
             while (true)
             {
+                Console.Clear();
+                EscreverBarra();
+                EscreverCentralizado("🛠️ MENU ENTRE MISSÕES");
+                EscreverBarra();
                 jogador.MostrarStatus();
-                Console.WriteLine("\n1 - Continuar para próxima batalha");
-                Console.WriteLine("2 - Visitar a loja");
-                Console.WriteLine("3 - Ver peças sobressalentes");
-                Console.WriteLine("4 - Sair do jogo");
-                Console.Write("Escolha uma opção: ");
+
+                Console.WriteLine();
+                Console.WriteLine("1️⃣ - Continuar para a próxima missão");
+                Console.WriteLine("2️⃣ - Visitar a loja 🔧");
+                Console.WriteLine("3️⃣ - Ver peças sobressalentes 🔩");
+                Console.WriteLine("4️⃣ - Sair do jogo ❌");
+                Console.Write("\nEscolha uma opção: ");
 
                 string opcao = Console.ReadLine();
 
@@ -153,7 +186,8 @@ namespace SeuProjeto.Jogo
                         Environment.Exit(0);
                         break;
                     default:
-                        Console.WriteLine("Opção inválida!");
+                        Console.WriteLine("❌ Opção inválida! Pressione uma tecla para tentar novamente...");
+                        Console.ReadKey();
                         break;
                 }
             }
@@ -161,17 +195,39 @@ namespace SeuProjeto.Jogo
 
         private void GerenciarPecas()
         {
+            Console.Clear();
+            EscreverBarra();
+            EscreverCentralizado("🔩 PEÇAS SOBRESSALENTES");
+            EscreverBarra();
+
             if (jogador.PecasSobressalentes.Count == 0)
             {
-                Console.WriteLine("Você não possui peças sobressalentes.");
+                EscreverCentralizado("🧰 Você não possui peças sobressalentes.");
+                Console.ReadKey();
                 return;
             }
 
-            Console.WriteLine("\nSuas peças sobressalentes:");
+            Console.WriteLine();
             for (int i = 0; i < jogador.PecasSobressalentes.Count; i++)
             {
                 jogador.PecasSobressalentes[i].ExibirInformacoes();
             }
+
+            Console.WriteLine("\nPressione uma tecla para voltar...");
+            Console.ReadKey();
+        }
+
+        private void EscreverCentralizado(string texto)
+        {
+            int larguraConsole = Console.WindowWidth;
+            int posicaoX = Math.Max((larguraConsole - texto.Length) / 2, 0);
+            Console.SetCursorPosition(posicaoX, Console.CursorTop);
+            Console.WriteLine(texto);
+        }
+
+        private void EscreverBarra()
+        {
+            Console.WriteLine(new string('═', Console.WindowWidth));
         }
     }
 }

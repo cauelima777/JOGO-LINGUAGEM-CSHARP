@@ -14,7 +14,7 @@ namespace SeuProjeto.Mundo
             try
             {
                 player = new SoundPlayer(caminhoMusica);
-                player.PlayLooping();  
+                player.PlayLooping();
             }
             catch (Exception ex)
             {
@@ -26,50 +26,50 @@ namespace SeuProjeto.Mundo
 
             Console.Clear();
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("╔══════════════════════════════════════════════════════════════════════╗");
-            Console.WriteLine("║                      ⚙️  *OFICINA DAS CENTELHAS* ⚙️                  ║");
-            Console.WriteLine("╚══════════════════════════════════════════════════════════════════════╝\n");
+            // Centralização
+            int larguraConsole = Console.WindowWidth;
+            void EscreverCentralizado(string texto, ConsoleColor cor = ConsoleColor.White)
+            {
+                Console.ForegroundColor = cor;
+                int pos = Math.Max(0, (larguraConsole - texto.Length) / 2);
+                Console.SetCursorPosition(pos, Console.CursorTop);
+                Console.WriteLine(texto);
+            }
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("🕰️ Ano 2894. Em um mundo movido por vapor, engrenagens e ambição.");
-            Console.WriteLine("A grande cidade de Valvulândia sobrevive envolta em névoa, fumaça e faíscas.");
-            Console.WriteLine("Criaturas mecânicas percorrem os trilhos, enquanto aristocratas engravatados");
-            Console.WriteLine("observam das alturas em dirigíveis a carvão.\n");
+            EscreverCentralizado("╔══════════════════════════════════════════════════════════════════════╗", ConsoleColor.Cyan);
+            EscreverCentralizado("║                      ⚙️  *OFICINA DAS ENGRENAGENS* ⚙️                ║", ConsoleColor.Cyan);
+            EscreverCentralizado("╚══════════════════════════════════════════════════════════════════════╝\n", ConsoleColor.Cyan);
 
-            Console.ForegroundColor = ConsoleColor.Magenta;
-            Console.WriteLine("⚒️ Dentro de uma oficina esquecida pelo tempo, um robô operário desperta.");
-            Console.WriteLine("Sem nome, sem passado. Apenas marcas enferrujadas e um número de série ilegível.");
-            Console.WriteLine("Ele consertava caldeiras. Apertava parafusos. Obedecia ordens.");
-            Console.WriteLine("Mas tudo mudou naquela manhã de fumaça e fogo...\n");
+            EscreverCentralizado("🕰️ Ano 2894. Em um mundo movido por vapor, engrenagens e ambição.", ConsoleColor.Yellow);
+            EscreverCentralizado("A grande cidade de Valvulândia sobrevive envolta em névoa, fumaça e faíscas.", ConsoleColor.Yellow);
+            EscreverCentralizado("Criaturas mecânicas percorrem os trilhos, enquanto aristocratas engravatados", ConsoleColor.Yellow);
+            EscreverCentralizado("observam das alturas em dirigíveis a carvão.\n", ConsoleColor.Yellow);
 
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("🚨 Tropas do Rei Maldrik invadiram Valvulândia.");
-            Console.WriteLine("Maldrik, o tirano de ferro, que governa com mão de cobre e coração de engrenagem fria.");
-            Console.WriteLine("Ele procura uma peça lendária: o Núcleo Eterno — capaz de conceder poder infinito a quem a controlar.");
-            Console.WriteLine("Para isso, destruirá tudo em seu caminho.\n");
+            EscreverCentralizado("⚒️ Dentro de uma oficina esquecida pelo tempo, um robô operário desperta.", ConsoleColor.Magenta);
+            EscreverCentralizado("Sem nome, sem passado. Apenas marcas enferrujadas e um número de série ilegível.", ConsoleColor.Magenta);
+            EscreverCentralizado("Ele consertava caldeiras. Apertava parafusos. Obedecia ordens.", ConsoleColor.Magenta);
+            EscreverCentralizado("Mas tudo mudou naquela manhã de fumaça e fogo...\n", ConsoleColor.Magenta);
 
-            Console.ForegroundColor = ConsoleColor.DarkYellow;
-            Console.WriteLine("⚡ No calor do ataque, algo acendeu dentro daquele velho robô.");
-            Console.WriteLine("Não era um curto-circuito... Era desejo. Era coragem. Era identidade.");
-            Console.WriteLine("Ele não sabia seu nome, mas sabia que precisava lutar.\n");
+            EscreverCentralizado("🚨 Tropas do Rei Maldrik invadiram Valvulândia.", ConsoleColor.Red);
+            EscreverCentralizado("Maldrik, o tirano de ferro, que governa com mão de cobre e coração de engrenagem fria.", ConsoleColor.Red);
+            EscreverCentralizado("Ele procura uma peça lendária: o Núcleo Eterno — capaz de conceder poder infinito a quem a controlar.", ConsoleColor.Red);
+            EscreverCentralizado("Para isso, destruirá tudo em seu caminho.\n", ConsoleColor.Red);
 
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("🔧 Com uma chave inglesa em mãos e vapor no peito, ele parte...");
-            Console.WriteLine("...não por vingança. Mas por justiça. Por liberdade.");
-            Console.WriteLine("\nSua jornada começa agora.\n");
+            EscreverCentralizado("⚡ No calor do ataque, algo acendeu dentro daquele velho robô.", ConsoleColor.DarkYellow);
+            EscreverCentralizado("Não era um curto-circuito... Era desejo. Era coragem. Era identidade.", ConsoleColor.DarkYellow);
+            EscreverCentralizado("Ele não sabia seu nome, mas sabia que precisava lutar.\n", ConsoleColor.DarkYellow);
 
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("⚙️ Prepare-se para girar as engrenagens do destino...");
-            Console.WriteLine("Pressione qualquer tecla para continuar.");
+            EscreverCentralizado("🔧 Com uma chave inglesa em mãos e vapor no peito, ele parte...", ConsoleColor.Green);
+            EscreverCentralizado("...não por vingança. Mas por justiça. Por liberdade.", ConsoleColor.Green);
+            EscreverCentralizado("\nSua jornada começa agora.\n", ConsoleColor.Green);
+
+            EscreverCentralizado("⚙️ Prepare-se para girar as engrenagens do destino...", ConsoleColor.Cyan);
+            EscreverCentralizado("Pressione qualquer tecla para continuar.", ConsoleColor.Cyan);
 
             Console.ReadKey();
 
-            // PARAR
             if (player != null)
-            {
                 player.Stop();
-            }
 
             Console.ResetColor();
             Console.Clear();

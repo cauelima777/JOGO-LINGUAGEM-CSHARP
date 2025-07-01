@@ -102,6 +102,7 @@ namespace SeuProjeto.Jogo
                 if (jogador.Vida <= 0)
                 {
                     EscreverCentralizado($"❌ {jogador.Nome} foi destruído!", ConsoleColor.DarkRed);
+                    Console.ReadLine();
                     break;
                 }
 
