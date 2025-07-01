@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\hist\u00F3ria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\hist\u00F3ria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\loredosinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\loredosinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\jogo\\jogo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +15,20 @@
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\inimigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\loja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\batalha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\loredosinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\loredosinimigos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\hist\u00F3ria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\hist\u00F3ria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:personagens\\pecassobressalentes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\mundo\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:mundo\\oficina.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{58746751-73AF-491C-BA22-3790C72962E8}|Jogo.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,70 +65,48 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "inimigo.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
-              "RelativeDocumentMoniker": "Personagens\\inimigo.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
-              "RelativeToolTip": "Personagens\\inimigo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T22:33:55.015Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:47:11.278Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "hist\u00F3ria.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Mundo\\hist\u00F3ria.cs",
               "RelativeDocumentMoniker": "Mundo\\hist\u00F3ria.cs",
               "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Mundo\\hist\u00F3ria.cs",
               "RelativeToolTip": "Mundo\\hist\u00F3ria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T22:29:20.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T22:29:20.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PecasSobressalentes.cs",
-              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
-              "RelativeDocumentMoniker": "Personagens\\PecasSobressalentes.cs",
-              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
-              "RelativeToolTip": "Personagens\\PecasSobressalentes.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDQAAAABAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T20:04:50.506Z"
+              "WhenOpened": "2025-05-26T19:47:11.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Batalha.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
               "RelativeDocumentMoniker": "Personagens\\Batalha.cs",
               "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Batalha.cs",
               "RelativeToolTip": "Personagens\\Batalha.cs",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAkwGgAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAwwGgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T19:25:33.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "jogador.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\jogador.cs",
               "RelativeDocumentMoniker": "Personagens\\jogador.cs",
@@ -140,49 +118,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Loja.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
               "RelativeDocumentMoniker": "Personagens\\Loja.cs",
               "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\Loja.cs",
               "RelativeToolTip": "Personagens\\Loja.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB4AAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAswHoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T18:38:33.462Z"
+              "WhenOpened": "2025-04-13T18:38:33.462Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "LoreDosInimigos.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Mundo\\LoreDosInimigos.cs",
               "RelativeDocumentMoniker": "Mundo\\LoreDosInimigos.cs",
               "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Mundo\\LoreDosInimigos.cs",
               "RelativeToolTip": "Mundo\\LoreDosInimigos.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T19:50:38.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T19:50:38.699Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Jogo.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
               "RelativeDocumentMoniker": "Jogo\\Jogo.cs",
               "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Jogo\\Jogo.cs",
               "RelativeToolTip": "Jogo\\Jogo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowAIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T19:26:08.732Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Oficina.cs",
               "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Mundo\\Oficina.cs",
               "RelativeDocumentMoniker": "Mundo\\Oficina.cs",
@@ -191,6 +165,31 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T22:29:21.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "inimigo.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
+              "RelativeDocumentMoniker": "Personagens\\inimigo.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\inimigo.cs",
+              "RelativeToolTip": "Personagens\\inimigo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T22:33:55.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PecasSobressalentes.cs",
+              "DocumentMoniker": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
+              "RelativeDocumentMoniker": "Personagens\\PecasSobressalentes.cs",
+              "ToolTip": "C:\\Users\\clevi\\OneDrive\\Documentos\\GitHub\\JOGO-LINGUAGEM-CSHARP\\Jogo\\Personagens\\PecasSobressalentes.cs",
+              "RelativeToolTip": "Personagens\\PecasSobressalentes.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwDQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T20:04:50.506Z"
             },
             {
               "$type": "Document",

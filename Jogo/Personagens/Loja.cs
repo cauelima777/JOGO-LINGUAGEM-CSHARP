@@ -117,7 +117,7 @@ namespace SeuProjeto.Mundo
                 Console.WriteLine();
             }
 
-            EscreverCentralizado("Digite o número da peça que deseja comprar (ou 0 para voltar):", ConsoleColor.Yellow);
+            Console.WriteLine("Digite o número da peça que deseja comprar (ou 0 para voltar):", ConsoleColor.Yellow);
             Console.SetCursorPosition((Console.WindowWidth / 2) + 18, Console.CursorTop - 1);
             if (int.TryParse(Console.ReadLine(), out int escolha))
             {
